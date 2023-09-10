@@ -23,7 +23,7 @@
         display: block;
       }
       .btn{
-        margin-top: -520px;
+        margin-top: -372px;
         animation: b  15s infinite linear;
     }
     
@@ -45,7 +45,7 @@
     .h1{
         grid-area: h1;
         display: flex;
-        margin-top: -370px;
+        margin-top: -305px;
         font-size: 47px;
         justify-content: center;
         align-items: center;
@@ -84,7 +84,7 @@
         display: block;
       }
       .btn{
-        margin-top: -500px;
+        margin-top: -372px;
         animation: b  13s infinite linear;
     }
     
@@ -106,7 +106,7 @@
     .h1{
         grid-area: h1;
         display: flex;
-        margin-top: -360px;
+        margin-top: -305px;
         font-size: 43px;
         justify-content: center;
         align-items: center;
@@ -147,7 +147,7 @@
         display: block;
       }
       .btn{
-        margin-top: -619px;
+        margin-top: -470px;
         animation: b  6s infinite linear;
     }
     
@@ -169,7 +169,7 @@
     .h1{
         grid-area: h1;
         display: flex;
-        margin-top: -409px;
+        margin-top: -335px;
         font-size: 34px;
         justify-content: center;
         align-items: center;
@@ -209,7 +209,7 @@
         display: block;
       }
       .btn{
-        margin-top: -625px;
+        margin-top: -504px;
         animation: b  6s infinite linear;
     }
     
@@ -223,7 +223,7 @@
     .h1{
         grid-area: h1;
         display: flex;
-        margin-top: -420px;
+        margin-top: -355px;
         font-size: 26px;
         justify-content: center;
         align-items: center;
@@ -262,7 +262,7 @@
         display: block;
       }
       .btn{
-        margin-top: -625px;
+        margin-top: -535px;
         animation: b  6s infinite linear;
     }
     
@@ -276,7 +276,7 @@
     .h1{
         grid-area: h1;
         display: flex;
-        margin-top: -420px;
+        margin-top: -365px;
         font-size: 23px;
         justify-content: center;
         align-items: center;
