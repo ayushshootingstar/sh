@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hj</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="" id="i" alt="">
+        </div>
+        <div class="h1">
+            you are my&nbsp<span id="s1">&nbsp</span>&nbsp<span id="s2">🤗</span>
+        </div>
+        <div class="btn">
+            <button class="btn-grad">i love you 🌠</button>
+        </div>
+     
+    </div>
+
+
+
+    <script>
+    
+        let image = document.getElementById('i');
+        let images = ['img/1.jpg', 'img/2.jpg', 'img/3.jpg', 'img/4.jpg', 'img/5.jpg', 'img/6.jpg', 'img/7.jpg', 'img/8.jpg', 'img/9.jpg']
+        setInterval(function() {
+            
+            let random = Math.floor(Math.random() * 9);
+            image.src = images[random];
+        }, 4000);
+
+
+
+
+        let emojis = document.getElementById("s2");
+        let emoji = ['🤗','🙂','😘','🥰','😚','🤩','❤️‍🔥','💞','❣️','💟', '💝','💌','🫰','🤭','🌹','👑'];
+        setInterval(function() {
+            let random = Math.floor(Math.random() * 16);
+        emojis.innerText=emoji[random];
+
+        }, 3000);
+
+
+        let texts = document.getElementById("s1");
+        let text = [
+        'My Life','Angel','Beloved','Cherished','Darling','Love','Dear','Other Half','One and Only','Pinky','Pookie','Precious','Princess','Queen','Sweetheart','Baby Cakes','Cookie','Cupcake','Honey','Jellybean','Lollipop','Marshmallow','Muffin','Peach','Peanut','Pumpkin','Sweetie Pie','Sugar','Sugarplum','Tootsie','Blossom','Buttercup','Flower','Rose','Rainbow','Tulip','Sunshine','Snowflake','Willow','Cheese Head','Bubble','Beloved','Potato','Love Sponge','Behbeh','Meemawn','Pebbles','Baby Bear','Drama Queen','Peeps','Buff Babe','Angry Bird'];
+        setInterval(function() {
+            let random = Math.floor(Math.random() * 52);
+            texts.innerText=text[random];
+
+        }, 3000);
+
+    </script>
+</body>
+</html>
