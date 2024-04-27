@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     margin-top: -200px;
-    animation: b  4s infinite linear;
+    animation: b  2s infinite linear;
 }
 .btn button{
     background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
