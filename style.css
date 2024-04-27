@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     margin-top: -200px;
-    animation: b  15s infinite linear;
+    animation: b  8s infinite linear;
 }
 .btn button{
     background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
@@ -64,7 +64,7 @@
     height:100%;
     object-fit: contain;
     justify-content: center;
-    border-radius: 30%;
+    border-radius: 15%;
 }
 
 .h1{
