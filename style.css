@@ -57,6 +57,8 @@
     grid-area: image;
     width: 893px;
     height: 390px;
+    border: 2px solid purple;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .image img{
@@ -64,8 +66,7 @@
     height:100%;
     object-fit: contain;
     justify-content: center;
-    border: 2px solid purple;
-    border-radius: 15px 15px 15px 15px;
+    
 }
 
 .h1{
