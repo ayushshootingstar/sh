@@ -83,7 +83,7 @@
 
 @keyframes b {
 
-    from{transform: scale(0%);}
+    from{transform: scale(80%);}
     to{transform: scale(105%);}
     
 }
