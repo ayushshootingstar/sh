@@ -64,7 +64,7 @@
     height:100%;
     object-fit: contain;
     justify-content: center;
-    border-radius: 60%;
+    border-radius: 30%;
 }
 
 .h1{
@@ -83,7 +83,10 @@
 
 @keyframes b {
 
-    from{transform: scale(80%);}
-    to{transform: scale(105%);}
+    0%{transform: scale(80%);}
+    25%{transform: scale(90%);}
+    50%{transform: scale(105%);}
+    75%{transform: scale(90%);}
+    100%{transform: scale(80%);}
     
 }
